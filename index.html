@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="background">
+        <div class=" card-min    " id="card">
+            <div class="header">
+                <div class="input-wrapper">
+                    <input id="input" type="search" placeholder="Search City / Country Here" value="">
+                </div>
+                <button id="searchbtn"><i class="fa-solid fa-magnifying-glass "></i></button>
+            </div>
+            <div class="main2">
+                <div class="section1">
+
+
+                    <i class="fa-solid fa-cloud cloud " id="weatherIcon"></i>
+                </div>
+                <div class="section2">
+                    <h1 id="temp">--°C</h1>
+                </div>
+                <div class="section3">
+                    <h1 id="location">------</h1>
+                </div>
+                <div class="section4">
+                    <div class="leftsection4">
+                        <div class="container">
+                            <i class="fa-solid fa-water"></i>
+                            <div class="text">
+                                <h4 id="humidity">--%</h4>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightsection4">
+                        <div class="container">
+                            <i class="fa-solid fa-wind"></i>
+                            <div class="text">
+                                <h4 id="windSpeed">-- km/h</h4>
+                                <p id=>Wind speed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="lastsection">
+                    <label class="switch">
+                        <input type="checkbox" id="toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="label-text" id="labelText">LIGHT MODE</span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

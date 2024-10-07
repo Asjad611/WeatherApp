@@ -1,0 +1,375 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.background{
+    background-color: #181a1e;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-min{
+    width:30% ;
+    height: 15%;
+    background-image: linear-gradient(to top left, rgb(174 105 205) 5%, rgb(0 255 222) 95%);
+
+    border-radius: 50px;
+    border: 10px;
+    border-color: rgb(228, 188, 226) ;
+    border-style:ridge;
+    position: relative;
+}
+
+
+ .card{
+    width:30% ;
+    height: 85%;
+    background-image: linear-gradient(to top left, rgb(174 105 205) 5%, rgb(0 255 222) 95%);
+
+    border-radius: 50px;
+    border: 10px;
+    border-color: rgb(228, 188, 226) ;
+    border-style:ridge;
+    position: relative;
+}  
+
+
+ .card-nightTheme{
+    width:30% ;
+    height: 85%;
+    background-image: linear-gradient(to top left, rgb(15, 15, 60) 5%,  rgb(93, 31, 151) 95%);
+
+    border-radius: 50px;
+     border: 10px;
+    border-color: rgb(74, 36, 73) ;
+    border-style:ridge;
+    position: relative;
+}  
+.header{
+    width: 100%;
+    height: 12vh;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.header .input-wrapper {
+   width: 60%;
+   height: 100%;
+   display: inline-block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 60%;
+    border-radius: 5vw;
+    border-style: hidden;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.872);
+    color: rgba(59, 58, 58, 0.519);
+    font-size: 1rem;
+    position: relative;
+}
+
+
+
+.header button{
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px;
+    border-radius: 50%;
+    border-style: hidden;
+    background-color: rgba(255, 255, 255, 0.872);
+    
+    color: rgba(88, 88, 88, 0.724);
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+ 
+    
+}
+
+.header button i{
+    /* color: rgba(88, 88, 88, 0.724); */
+    z-index: 10;
+    position: relative;
+    text-align: center;
+}
+.header button::after{
+    content: "";
+    background-image: linear-gradient(to top left ,rgb(174 105 205)5%,rgb(72 197 216)); 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0%;
+    top: 100%;
+    border-radius: 50%;
+}
+.header button:hover::after{
+    left:0%;
+    top: 0%;
+    transition: 0.2s linear 0s;
+}
+.header button:hover {
+    color: white;
+}
+
+.main2{
+    
+    width: 100%;
+    height: 100%;
+ display: none;
+ flex-direction: column;
+  
+   
+    
+}
+.section1{
+    /* background-color: crimson; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .section1 img{
+    height: 100%;
+    background-size: cover;
+    padding:0px;
+    background-color: black;
+  
+    
+} */
+.section1 i{
+    
+   font-size: 120px;
+   color: rgba(255, 255, 255, 0.872);
+
+}
+
+.section2{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+    height: 15%;
+    align-items: center;
+    
+}
+.section2 h1{
+    font-size: 110px;
+    color: rgba(255, 255, 255, 0.872);
+    font-weight: 700;
+    text-decoration: solid;
+}
+.section3{
+      /* background-color: black; */
+      width: 100%;
+      height: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.section3 h1{
+    color: rgba(255, 255, 255, 0.872);
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.section4{
+    width: 100%;
+    /* background-color: crimson; */
+    height:15vh;
+    display: flex;
+}
+.leftsection4{
+    width: 40%;
+    height: 100%;
+    /* background-color:yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+}
+.container i{
+    font-size: 60px;
+    margin: 15px;
+    color: rgba(255, 255, 255, 0.72);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.text h4{
+    text-align: left;
+    display: inline-block;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.872);
+    font-weight: 500;
+   
+}
+.text p{
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.872);
+    font-weight: 500;
+}
+
+.rightsection4{
+    /* background-color: blue; */
+    width: 50%;
+    height: 100%;
+}
+.rightsection4{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* background-color: aquamarine; */
+}
+
+
+.lastsection{
+    width: 100%;
+    height: 12%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+
+  /* Slider's round circle */
+  .slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+
+  /* Checked state */
+  input:checked + .slider {
+    background-color: #162a38;
+  }
+
+  /* Move the slider to the right when checked */
+  input:checked + .slider::before {
+    transform: translateX(26px);
+  }
+
+  /* Dark Mode Text */
+  .label-text {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    
+  }
+
+  /* Optional: Dark Mode Text turns blue when active */
+  input:checked + .slider + .label-text {
+    color: #2196F3;
+  }
+  @media screen and (max-width:1253px)  {
+    .card{
+        width:90% ;
+        height: 85%;
+    } 
+    
+    
+     .card-nightTheme{
+        width:95vw;  
+    } 
+ 
+  
+  }
+
+  @media screen and (max-width:355px) {
+    .container i {
+        font-size: 10vw;
+    }
+    .text h4 {
+        font-size: 10vw;
+    }
+    .text p {
+        font-size: 4vw;
+    }
+    .section1 i{
+        font-size: 30vw;
+    }
+    .section2 #temp{
+        font-size: 30vw;
+    }
+    .section3 h1{
+        font-size: 18vw;
+    }
+   
+    .label-text{
+       font-size: 8vw;
+    }
+  }
+  @media screen and (max-width:1000px)  {
+ 
+    .card-min{
+        width:85vw ;
+        height: 15%;
+        
+    }
+  
+  }
